@@ -1,0 +1,94 @@
+/* Deirdre McCray_Style sheet for Module02 assigment*/
+
+/*head*/
+
+
+/* Body*/
+body {
+    
+    color: black;
+  
+}
+
+
+/*Article*/
+article {
+    background-color:white;
+    background-image: url("../images/WidgetCoLogo.gif");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 500px;
+
+    text-align: justify;
+    margin-left: 4rem;
+    margin-right: 4rem;
+   
+
+}
+
+/* Section */
+section {
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color:rgb(247, 247, 210);
+    border-top:  5px solid green;
+    border-bottom: 5px solid green;
+    border-left: 30px solid green;
+    border-right: 5px solid green;
+}
+
+/*header */
+header {
+  
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid rgb(114, 112, 112);
+    border-right: 10px solid black;
+    padding: 2px 200px;
+
+}
+
+/*aside*/
+aside {
+
+    text-align: right; 
+    border-right: 10px solid black;
+    padding-right: 10px;
+    
+
+}
+
+
+/*aside first line*/
+aside::first-line{
+    font-weight: bold;
+}
+
+
+/*h1*/
+h1 {
+    text-align: left;
+    width: 520px;
+    margin-top: 0;
+    display: inline-block;
+
+}
+
+/*h2*/
+h2 {
+    text-align: center;
+    font-style: italic;
+}
+
+/*font-varient*/
+.font-variant {
+    font-variant: initial;
+}
+
+/*footer*/
+footer {
+    border-top: 3px solid gray;
+    text-align: right;
+}
