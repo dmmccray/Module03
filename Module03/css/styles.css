@@ -32,10 +32,10 @@ section {
     margin: 15px 0;
     padding: 10px 20px;
     background-color:rgb(247, 247, 210);
-    border-top:  5px solid green;
-    border-bottom: 5px solid green;
-    border-left: 30px solid green;
-    border-right: 5px solid green;
+    border-top:  5px solid rgb(214, 164, 223);
+    border-bottom: 5px solid rgb(214, 164, 223);
+    border-left: 30px solid rgb(214, 164, 223);
+    border-right: 5px solid rgb(214, 164, 223);
 }
 
 /*header */
@@ -43,7 +43,7 @@ header {
     text-align: center;
     border-top: 2px solid gray;
     border-bottom: 2px solid rgb(114, 112, 112);
-    border-right: 10px solid black;
+    border-right: 10px solid rgb(178, 61, 228);
     padding: 2px 200px;
     font-variant: small-caps;
 
@@ -54,7 +54,7 @@ header {
 aside {
 
     text-align: right; 
-    border-right: 10px solid black;
+    border-right: 10px solid rgb(178, 61, 228);
     padding-right: 10px;
     
 
@@ -66,7 +66,7 @@ aside {
     float: right;
     width: 200px;
     text-align: right;
-    border-right: 10px solid black;
+    border-right: 10px solid rgb(178, 61, 228);
     padding-right: 10px;
     margin-left: 20px;
 }
